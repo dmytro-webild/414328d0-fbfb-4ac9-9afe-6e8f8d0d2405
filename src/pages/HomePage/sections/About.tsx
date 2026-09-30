@@ -8,22 +8,13 @@ export default function AboutSection(): React.JSX.Element {
   return (
     <div id="about" data-section="about">
               <AboutCursorTrail
-                textAnimation="fade-blur"
-                tag="Move your cursor!"
-                title="What are you in the mood for?"
-                media={[
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-1.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-2.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-3.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-4.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-5.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-6.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-7.webp" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-8.webp" },
-                ]}
-                primaryButton={{ text: "See the Menu", href: "#menu" }}
-                secondaryButton={{ text: "Find Us", href: "#locations" }}
-              />
+        textAnimation="fade-blur"
+        tag="Move your cursor!"
+        title="What are you in the mood for?"
+        media={[{"imageSrc":"https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=800"},{"imageSrc":"https://images.unsplash.com/photo-1631379578550-7038263db699?auto=format&fit=crop&q=80&w=800"},{"imageSrc":"https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&q=80&w=800"},{"imageSrc":"https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800"},{"imageSrc":"https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=800"},{"imageSrc":"https://storage.googleapis.com/webild/users/user_3IwZkkibx9pPCWCYxzLuBkTZGDO/uploaded-1790783667972-20rjpqdn.jpg"},{"imageSrc":"https://storage.googleapis.com/webild/users/user_3IwZkkibx9pPCWCYxzLuBkTZGDO/uploaded-1790783667970-oimihpka.jpg"},{"imageSrc":"https://storage.googleapis.com/webild/users/user_3IwZkkibx9pPCWCYxzLuBkTZGDO/uploaded-1790783667973-alkutv5v.jpg"}]}
+        primaryButton={{ text: "See the Menu", href: "#menu" }}
+        secondaryButton={{ text: "Find Us", href: "#locations" }}
+      />
             </div>
   );
 }
