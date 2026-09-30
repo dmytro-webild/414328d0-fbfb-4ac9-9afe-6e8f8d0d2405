@@ -10,7 +10,7 @@ export default function Layout() {
     <StyleProvider buttonVariant="default" siteBackground="none" heroBackground="none">
       <SiteBackgroundSlot />
       <NavbarFullscreen
-                logo="Joe's Coffee"
+                logo="Dhall Dairy & Bakery"
                 navItems={[
                   { name: "Menu", href: "#menu" },
                   { name: "Find Us", href: "#locations" },
@@ -21,7 +21,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <FooterBrand
-                brand="Joe's Coffee"
+                brand="Dhall Dairy & Bakery"
                 columns={[
                   {
                     items: [
