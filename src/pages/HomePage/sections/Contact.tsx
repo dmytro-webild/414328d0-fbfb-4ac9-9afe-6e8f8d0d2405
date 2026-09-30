@@ -14,7 +14,7 @@ export default function ContactSection(): React.JSX.Element {
                 title={"Speak with one\nof our experts"}
                 options={[
                   { icon: MessageCircle, label: "Whatsapp", href: "https://wa.me/1234567890" },
-                  { icon: Mail, label: "Email", href: "mailto:hello@joescoffee.com" },
+                  { icon: Mail, label: "Email", href: "mailto:info@dhalldairybakery.com" },
                   { icon: Phone, label: "Number", href: "tel:+1234567890" },
                 ]}
               />
