@@ -8,26 +8,13 @@ export default function MenuSection(): React.JSX.Element {
   return (
     <div id="menu" data-section="menu">
               <FeaturesFilterGrid
-                textAnimation="fade-blur"
-                tag="What We Serve"
-                title="Explore What's on Our Menu"
-                description="From handcrafted espresso drinks to freshly baked pastries, every item is made with care."
-                categories={["Hot Drinks", "Cold Drinks", "Pastries"]}
-                items={[
-                  { name: "Espresso", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/espresso.webp" },
-                  { name: "Latte", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/latte-menu.webp" },
-                  { name: "Iced Latte", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-2.webp" },
-                  { name: "Cappuccino", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/cappuccino.webp" },
-                  { name: "Iced Americano", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/hero/iced-coffee.webp" },
-                  { name: "Mocha", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/mocha.webp" },
-                  { name: "Iced Mocha", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-6.webp" },
-                  { name: "Flat White", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-7.webp" },
-                  { name: "Iced Flat White", category: "Cold Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/iced-flat-white.webp" },
-                  { name: "Chai Latte", category: "Hot Drinks", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/chai-latte.webp" },
-                  { name: "Croissant", category: "Pastries", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/trail/trail-3.webp" },
-                  { name: "Chocolate Chip Cookie", category: "Pastries", imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/menu/chocolate-chip-cookie.webp" },
-                ]}
-              />
+        textAnimation="fade-blur"
+        tag="Our Fresh Offerings"
+        title="Explore Our Dairy & Bakery Menu"
+        description="Farm-fresh milk, pure desi ghee, artisan breads, custom cakes, and traditional sweets made daily."
+        categories={["Dairy Products","Fresh Bakes","Sweets & Desserts"]}
+        items={[{"name":"Fresh Milk","imageSrc":"https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=800","category":"Dairy Products"},{"imageSrc":"https://images.unsplash.com/photo-1631379578550-7038263db699?auto=format&fit=crop&q=80&w=800","category":"Dairy Products","name":"Fresh Cottage Cheese (Paneer)"},{"category":"Dairy Products","name":"Pure Desi Ghee & Butter","imageSrc":"https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?auto=format&fit=crop&q=80&w=800"},{"category":"Dairy Products","name":"Fresh Dahi (Yogurt)","imageSrc":"https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800"},{"imageSrc":"https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=800","category":"Fresh Bakes","name":"Artisan Bread & Buns"},{"name":"Fresh Cream Cakes","category":"Fresh Bakes","imageSrc":"https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=800"},{"category":"Fresh Bakes","name":"Butter Croissants & Pastries","imageSrc":"https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=800"},{"imageSrc":"https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&q=80&w=800","name":"Fresh Baked Cookies","category":"Fresh Bakes"},{"category":"Sweets & Desserts","name":"Traditional Sweets","imageSrc":"https://images.unsplash.com/photo-1599785209707-a456fc1337cc?auto=format&fit=crop&q=80&w=800"}]}
+      />
             </div>
   );
 }
