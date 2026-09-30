@@ -3,7 +3,7 @@
 
 import React from 'react';
 import ContactBar from "@/components/sections/contact/ContactBar";
-import { Phone, MessageCircle, Mail } from "lucide-react";
+import { Phone, MessageCircle, Mail, AtSign } from "lucide-react";
 
 export default function ContactSection(): React.JSX.Element {
   return (
@@ -13,6 +13,7 @@ export default function ContactSection(): React.JSX.Element {
                 tag="Get in Touch"
                 title={"Speak with one\nof our experts"}
                 options={[
+                  { icon: AtSign, label: "Instagram (@dhall_bakers_)", href: "https://www.instagram.com/dhall_bakers_" },
                   { icon: MessageCircle, label: "Whatsapp", href: "https://wa.me/1234567890" },
                   { icon: Mail, label: "Email", href: "mailto:info@dhalldairybakery.com" },
                   { icon: Phone, label: "Number", href: "tel:+1234567890" },
