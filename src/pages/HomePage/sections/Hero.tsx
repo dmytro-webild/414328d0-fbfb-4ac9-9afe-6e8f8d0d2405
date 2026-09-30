@@ -13,8 +13,8 @@ export default function HeroSection(): React.JSX.Element {
         description="Fresh farm milk, artisanal cheeses, rich butter, and handcrafted bakery items made daily. Quality dairy products and fresh oven bakes delivered to your table."
         primaryButton={{ text: "Order Now", href: "#order" }}
         secondaryButton={{ text: "View Menu", href: "#menu" }}
-        videoSrc="https://storage.googleapis.com/webild/default/templates/joes-coffee/hero/hero.mp4"
         floatingCards={[{"name":"Fresh Milk","imageSrc":"https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=800"},{"name":"Artisan Bread","imageSrc":"https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=800"}]}
+        imageSrc="https://picsum.photos/seed/297977341/1200/800"
       />
             </div>
   );

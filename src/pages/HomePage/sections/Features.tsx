@@ -8,29 +8,13 @@ export default function FeaturesSection(): React.JSX.Element {
   return (
     <div id="features" data-section="features">
               <FeaturesGridSplitLarge
-                textAnimation="fade-blur"
-                tag="Beyond the Cup"
-                title="Host Your Next Event at Joe's"
-                description="From intimate gatherings to full-scale catering, we bring the warmth of Joe's wherever you need it."
-                topItems={[
-                  {
-                    title: "Private Events",
-                    description: "Book our space for birthdays, meetings, or just a good excuse to get together. Great coffee and good vibes included.",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/private-events.webp",
-                  },
-                  {
-                    title: "Catering",
-                    description: "Let us handle the coffee and pastries for your next event. We'll set up, pour, and make sure nobody runs on empty.",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/catering.webp",
-                  },
-                ]}
-                bottomItem={{
-                  title: "Custom Menus",
-                  description: "Work with our team to build a tailored menu for your event — from espresso bars to pastry platters, we've got you covered.",
-                  imageSrc: "https://storage.googleapis.com/webild/default/templates/joes-coffee/features/custom-menus.webp",
-                  primaryButton: { text: "Get in Touch", href: "#contact" },
-                }}
-              />
+        textAnimation="fade-blur"
+        tag="Catering & Events"
+        title="Host Your Event or Order Catering with Dhall Dairy & Bakery"
+        description="From intimate gatherings to full-scale catering, we bring fresh dairy delights, artisanal breads, and sweets to your events."
+        topItems={[{"imageSrc":"https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&q=80&w=800","description":"Book our space or order fresh dairy platters and bakery spreads for birthdays, celebrations, and gatherings.","title":"Private Events & Parties"},{"title":"Bakery & Dairy Catering","description":"Let us cater fresh milk products, artisanal breads, sweets, and pastries for your next special occasion.","imageSrc":"https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=800"}]}
+        bottomItem={{"primaryButton":{"href":"#contact","text":"Get in Touch"},"title":"Custom Orders & Gift Boxes","imageSrc":"https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&q=80&w=800","description":"Work with our team to customize sweet boxes, cake designs, and fresh dairy gift baskets for any occasion."}}
+      />
             </div>
   );
 }
