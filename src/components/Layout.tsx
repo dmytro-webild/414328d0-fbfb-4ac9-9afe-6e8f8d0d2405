@@ -40,7 +40,7 @@ export default function Layout() {
                   {
                     items: [
                       { label: "Contact", href: "#contact" },
-                      { label: "Careers", href: "#careers" },
+                      { label: "Instagram: @dhall_bakers_", href: "https://www.instagram.com/dhall_bakers_" },
                       { label: "Gift Cards", href: "#gift-cards" },
                     ],
                   },
